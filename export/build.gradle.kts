@@ -1,4 +1,3 @@
-import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
@@ -8,6 +7,17 @@ plugins {
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.composeHotReload)
+    id("maven-publish")
+}
+
+publishing {
+    publications {
+        withType<MavenPublication> {
+            groupId = "dev.otaviomoreira"
+            artifactId = "compose-export"
+            version = "0.1.0"
+        }
+    }
 }
 
 group = "dev.otaviomoreira"
