@@ -15,13 +15,13 @@ publishing {
         withType<MavenPublication> {
             groupId = "dev.otaviomoreira"
             artifactId = "compose-export"
-            version = "0.1.0"
+            version = "0.1.1"
         }
     }
 }
 
 group = "dev.otaviomoreira"
-version = "0.0.1"
+version = "0.1.1"
 
 kotlin {
     androidTarget {
