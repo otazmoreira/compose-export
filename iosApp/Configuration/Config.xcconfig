@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=compose-export
+PRODUCT_BUNDLE_IDENTIFIER=dev.otaviomoreira.compose.export.compose-export$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
