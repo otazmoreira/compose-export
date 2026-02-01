@@ -42,15 +42,6 @@ kotlin {
 
     jvm()
 
-    js {
-        browser()
-    }
-
-    @OptIn(ExperimentalWasmDsl::class)
-    wasmJs {
-        browser()
-    }
-
     sourceSets {
         androidMain.dependencies {
             implementation(libs.androidx.core.ktx)
