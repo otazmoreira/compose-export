@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/otazmoreira/compose-export.svg)](https://jitpack.io/#otazmoreira/compose-export)
+
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop (JVM).
 
 * [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
